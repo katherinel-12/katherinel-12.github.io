@@ -1,0 +1,199 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    margin: 0.75%; 
+    padding-top: 0.75%; 
+    padding-right: 0.75%; 
+    padding-left: 0.75%; 
+    padding-bottom: 0.5%; 
+    text-align: center;
+    border: solid; 
+    border-color: green; 
+}
+header h1{
+    margin: 0; 
+    padding: 0;
+    font-variant: small-caps; 
+    color: darkgreen;
+}
+header h3{
+    margin: 0; 
+    padding: 0.75%; 
+    color: darkolivegreen;
+}
+nav{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+    text-align: center;
+}
+nav ul li{
+    margin: 0;
+    padding-right: 5%; 
+    padding-left: 5%; 
+    display: inline-block; 
+    text-align: center; 
+}
+nav ul li a:link{
+    color:seagreen; 
+    text-decoration: none;
+}
+nav ul li a:visited{
+    color:seagreen; 
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+nav ul li a:active{
+    text-decoration: underline;
+}
+body{
+	background-image: url(sliced-avocado-shopify.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+    background-color: #CDDCA3; 
+}
+main{
+    margin: 0.75%;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    border: solid;
+    border-color: green;
+}
+main h2{
+    font-variant: small-caps;
+    color: darkgoldenrod;
+}
+main p{
+    padding-right: 15%; 
+    padding-left: 15%;
+}
+main a:link{
+    color:seagreen; 
+    text-decoration: none;
+}
+main a:visited{
+    color:seagreen; 
+    text-decoration: none;
+}
+main a:hover{
+    text-decoration: underline;
+}
+main a:active{
+    text-decoration: underline;
+}
+.flex-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-container .text{
+    width: 50%; 
+    text-align: center;
+}
+form{
+	padding:2%; 
+	margin-top: 1%; 
+	margin-bottom: 1%; 
+}
+input{
+	width: 70%;
+	padding: 2% 3%;
+	margin: 1%; 
+	box-sizing: border-box;
+	border: 2px solid #555;
+	border-radius: 20px;
+	cursor: pointer;
+	text-align: center;
+}
+input:focus {
+	background-color: lightyellow;
+}
+textarea{
+	width: 70%;
+	padding: 2% 3%;
+	margin: 1%; 
+	box-sizing: border-box;
+	border: 2px solid #555;
+	border-radius: 20px;
+	cursor: pointer;
+	text-align: center;
+}
+textarea:focus {
+	background-color: lightyellow;
+}
+button{  
+	padding: 2% 3%;
+	margin: 1%; 
+	border: 2px solid #555;
+	border-radius: 20px;
+	background-color: lightyellow; 
+	cursor: pointer;
+}
+button:hover{
+	background-color: darkgoldenrod; 
+}
+button:active{
+	background-color: darkgoldenrod; 
+}
+footer{
+    margin: 0.75%; 
+    padding-right: 5%;
+    padding-left: 5%; 
+    display: block; 
+    text-align: center; 
+    border: solid; 
+    border-color: green;
+}
+footer a:link{
+    color:seagreen; 
+    text-decoration: none;
+    padding-right: 5%;
+    padding-left: 5%; 
+}
+footer a:visited{
+    color:seagreen; 
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer a:active{
+    text-decoration: underline;
+}
+footer p{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

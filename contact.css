@@ -1,7 +1,7 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
-header{
+/* header{
     margin: 0.75%; 
     padding-top: 0.75%; 
     padding-right: 0.75%; 
@@ -38,6 +38,64 @@ nav ul li{
     padding-left: 5%; 
     display: inline-block; 
     text-align: center; 
+}
+nav ul li a:link{
+    color:seagreen; 
+    text-decoration: none;
+}
+nav ul li a:visited{
+    color:seagreen; 
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+nav ul li a:active{
+    text-decoration: underline;
+} */
+header{
+    margin: 0.75%; 
+    padding-top: 0.75%; 
+    padding-right: 0.75%; 
+    padding-left: 0.75%; 
+    padding-bottom: 0.5%; 
+    text-align: center;
+    border: solid; 
+    border-color: green; 
+}
+header h1{
+    margin: 0; 
+    padding: 0;
+    font-variant: small-caps; 
+    color: darkgreen;
+}
+header h3{
+    margin: 0; 
+    padding: 0.75%; 
+    color: darkolivegreen;
+}
+nav{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+    text-align: center;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+}
+nav ul li{
+    margin: 0;
+    padding-right: 5%; 
+    padding-left: 5%; 
+	padding-top: 1%; 
+	padding-bottom: 1%; 
+/*    display: inline-block; */
+/*    text-align: center; */
+	font-size: 1.2em; 
 }
 nav ul li a:link{
     color:seagreen; 

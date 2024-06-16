@@ -1,5 +1,6 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+	flex-wrap: wrap; /* lets it go to the next line */
 }
 header{
     margin: 0.75%; 
@@ -31,13 +32,19 @@ nav ul{
     padding: 0;
     list-style: none; 
     text-align: center;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
 }
 nav ul li{
     margin: 0;
     padding-right: 5%; 
     padding-left: 5%; 
-    display: inline-block; 
-    text-align: center; 
+	padding-top: 1%; 
+	padding-bottom: 1%; 
+/*    display: inline-block; */
+/*    text-align: center; */
+	font-size: 1.2em; 
 }
 nav ul li a:link{
     color:seagreen; 
@@ -104,20 +111,29 @@ main h3{
 }
 .flex-container .image img{
     width: 50%; 
+	height: 100vh; 
 }
 .flex-container .text{
     width: 50%; 
+	height: auto; 
     text-align: center;
     background-color: lightpink; 
 }
 iframe{
+	width: 560px; 
+	height: 315px; 
+	padding-bottom: 1.5%; 
+/*
 	width: 854px;  
 	height: 480px; 
+*/
 }
 footer{
     margin: 0.75%; 
     padding-right: 5%;
     padding-left: 5%; 
+	padding-top: 2%; 
+	padding-bottom: 2%; 
     display: block; 
     text-align: center; 
     border: solid; 
@@ -143,25 +159,4 @@ footer p{
     margin: 0;
     padding: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
